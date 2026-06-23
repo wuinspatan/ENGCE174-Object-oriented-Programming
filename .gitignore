@@ -1,0 +1,22 @@
+# Private/Secret folders
+secrete/
+
+# Compiled Java files
+*.class
+
+# Package/Build directories (if you use Maven or Gradle later)
+target/
+build/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
