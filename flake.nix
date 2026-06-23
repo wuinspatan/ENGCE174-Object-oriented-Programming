@@ -18,6 +18,13 @@
             # Java 21 LTS
             jdk21
 
+            # C/C++ Dev
+            gcc 
+            gnumake
+
+            # Python 
+            python315
+
             # Code formatter
             google-java-format
 
