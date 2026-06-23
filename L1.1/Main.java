@@ -6,6 +6,5 @@ public class Main {
             String name = sc.nextLine();
             int age = Integer.parseInt(sc.nextLine());
             System.out.println("Hello " + name + ", you are " + age + " years old.");
-        
     }
 }
