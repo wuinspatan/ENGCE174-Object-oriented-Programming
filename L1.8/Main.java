@@ -6,8 +6,7 @@ public class Main {
         int number = sc.nextInt();
 
         for (int i = 1; i <= 12; i++) {
-            int result = number * i;
-            System.out.println(number + " x " + i + " = " + result);
+            System.out.println(number + " x " + i + " = " + number * i);
         }
     }
 }
