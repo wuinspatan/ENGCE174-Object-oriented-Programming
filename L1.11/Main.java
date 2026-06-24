@@ -9,9 +9,11 @@ public class Main {
         if (units >= 0 && units <= 100) {
             bill = units * 4;
         } else if (units >= 101 && units <= 200) {
-            bill = (units * 5) - 100;
+            units -= 100;
+            bill = units * 5 + 400;
         } else { 
-            bill = (units * 6) - 300;
+            units -= 200;
+            bill = (units * 6) + 900;
         }
 
         System.out.println("Bill = " + bill);
