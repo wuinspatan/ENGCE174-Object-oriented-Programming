@@ -17,7 +17,7 @@ public class Main {
         } else if (score >= 0 && score < 50) {
             grade = "F";
         } else {
-            grade = "Score in range 1 - 100!";
+            grade = "Score out of range!";
         }
         System.out.println("Grade = " + grade);
     }
