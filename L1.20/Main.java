@@ -10,7 +10,7 @@ public class Main {
         } else if (N > 0) {
             System.out.println(N % 2 == 0 ? "Positive Even" : "Possitive Odd");
         } else {
-            System.out.println(N % 2 == 1 ? "Negative Even" : "Negative Odd");
+            System.out.println(N % 2 == 0 ? "Negative Even" : "Negative Odd");
         }
     }
 }
