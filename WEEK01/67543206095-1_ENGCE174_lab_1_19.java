@@ -23,5 +23,6 @@ class Main {
             default -> System.out.println("Invalid");
         }
         System.out.println("Shipping = " + total_cost);
+        sc.close();
     }
 }

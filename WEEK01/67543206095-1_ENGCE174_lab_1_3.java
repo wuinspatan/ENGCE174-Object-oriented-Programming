@@ -9,5 +9,7 @@ class Main {
         int perimeter = 2 * (width + height);
         System.out.println("Area = " + area);
         System.out.println("Perimeter = " + perimeter);
+
+        sc.close();
     }
 }

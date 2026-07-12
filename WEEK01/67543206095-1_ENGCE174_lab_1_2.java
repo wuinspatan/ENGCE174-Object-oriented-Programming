@@ -11,5 +11,7 @@ class Main {
         System.out.println("Student ID: " + studentID);
         System.out.println("Name: " + name);
         System.out.println("Faculty: " + faculty);
+
+        sc.close();
     }
 }

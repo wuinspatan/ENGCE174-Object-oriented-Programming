@@ -8,5 +8,6 @@ public class Main {
         for (int i = 1; i <= 12; i++) {
             System.out.println(number + " x " + i + " = " + number * i);
         }
+        sc.close();
     }
 }

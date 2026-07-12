@@ -7,5 +7,6 @@ public class Main {
         int days = sc.nextInt();
         int totalSalary = dailyWage * days;
         System.out.println("Total salary = " + totalSalary);
+        sc.close();
     }
 }

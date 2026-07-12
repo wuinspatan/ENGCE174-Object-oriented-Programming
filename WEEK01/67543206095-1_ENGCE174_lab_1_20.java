@@ -12,5 +12,6 @@ class Main {
         } else {
             System.out.println(N % 2 == 0 ? "Negative Even" : "Negative Odd");
         }
+        sc.close();
     }
 }

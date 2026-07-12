@@ -13,5 +13,6 @@ public class Main {
         }
 
         System.out.println("Odd sum = " + odd_sum);
+        sc.close();
     }
 }

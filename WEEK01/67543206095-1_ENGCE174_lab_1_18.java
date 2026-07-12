@@ -10,5 +10,6 @@ class Main {
             total_sum += n * i;
         }
         System.out.println("Total = " + total_sum);
+        sc.close();
     }
 }

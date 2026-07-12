@@ -11,5 +11,6 @@ public class Main {
             case 4 -> System.out.println("Milk");
             default -> System.out.println("Invalid menu");
         }
+        sc.close();
     }
 }

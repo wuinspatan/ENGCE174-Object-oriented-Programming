@@ -20,5 +20,6 @@ public class Main {
             grade = "Score out of range!";
         }
         System.out.println("Grade = " + grade);
+        sc.close();
     }
 }

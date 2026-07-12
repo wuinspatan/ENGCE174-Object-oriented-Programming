@@ -9,5 +9,6 @@ public class Main {
         System.out.println("\nStudent ID:" + studentID);
         System.out.println("Name:" + name);
         System.out.println("Faculty:" + faculty);
+        sc.close();
     }
 }

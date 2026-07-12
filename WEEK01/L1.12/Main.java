@@ -15,5 +15,6 @@ public class Main {
         }
 
         System.out.println("Fee = " + fee);
+        sc.close();
     }
 }

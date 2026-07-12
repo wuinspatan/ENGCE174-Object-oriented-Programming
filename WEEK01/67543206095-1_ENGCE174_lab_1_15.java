@@ -12,5 +12,6 @@ class Main {
         }
 
         System.out.println("Factorial = " + result);
+        sc.close();
     }
 }

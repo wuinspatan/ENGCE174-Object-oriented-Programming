@@ -1,15 +1,20 @@
 import java.util.Scanner;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
+
         int sum = 0;
+        int N;
 
-        for (int i = 1; i <= N; i++) {
-            sum += i;
+        while (true) {
+
+            N = sc.nextInt();
+            if (N == -1) {
+                break;
+            }
+            sum += N;
         }
-
         System.out.println("Sum = " + sum);
         sc.close();
     }

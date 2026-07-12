@@ -30,5 +30,7 @@ class Main {
             default:
                 System.out.println("Invalid day");
         }
+
+        sc.close();
     }
 }

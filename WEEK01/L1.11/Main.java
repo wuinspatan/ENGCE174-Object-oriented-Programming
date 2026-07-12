@@ -17,5 +17,6 @@ public class Main {
         }
 
         System.out.println("Bill = " + bill);
+        sc.close();
     }
 }
