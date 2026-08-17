@@ -3,9 +3,9 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[][] grid = new int[3][2];
-        for (int row = 0; row < 3; row++) {
-            for (int col = 0; col < 2; col++) {
+        int[][] grid = new int[2][3];
+        for (int row = 0; row < 2; row++) {
+            for (int col = 0; col < 3; col++) {
                 grid[row][col] = sc.nextInt();
             }
         }
