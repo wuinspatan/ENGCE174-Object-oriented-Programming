@@ -21,4 +21,6 @@ build/
 .DS_Store
 Thumbs.db
 
-token_work_uni
+token
+
+*/.lab-runner/
