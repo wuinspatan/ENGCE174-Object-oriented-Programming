@@ -23,4 +23,6 @@ Thumbs.db
 
 token
 
-*/.lab-runner/
+# Lab runner
+.lab-runner
+.lab-runner/
